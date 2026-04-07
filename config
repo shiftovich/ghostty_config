@@ -1,0 +1,38 @@
+background = 12081f
+background-image = /Users/mihail.kirs/.config/ghostty/ava.jpeg
+background-image-opacity = 0.2
+background-image-fit = cover
+background-image-position = center
+background-image-repeat = false
+foreground = e8e3ff
+cursor-color = ffffff
+selection-background = 4b1f8a
+selection-foreground = ffffff
+bold-color = ff8bff
+
+font-family = "JetBrains Mono"
+font-size = 16
+
+window-padding-x = 10
+window-padding-y = 8
+window-padding-color = background
+
+cursor-style = block_hollow
+cursor-style-blink = true
+mouse-hide-while-typing = true
+scrollback-limit = 20000000
+link-previews = true
+custom-shader = /Users/mihail.kirs/.config/ghostty/shaders/cursor_smear.glsl
+
+background-opacity = 0.5
+background-blur = true
+
+quick-terminal-animation-duration = 0.18
+
+shell-integration = detect
+shell-integration-features = cursor,no-sudo,title,no-ssh-env,no-ssh-terminfo,path
+
+keybind = super+1=toggle_quick_terminal
+keybind = ctrl+shift+o=open_config
+keybind = ctrl+shift+r=reload_config
+keybind = ctrl+shift+t=new_tab
